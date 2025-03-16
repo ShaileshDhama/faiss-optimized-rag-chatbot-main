@@ -1,0 +1,17 @@
+# 🏦 PRIVATE EQUITY & VENTURE CAPITAL
+
+## **I. Introduction to Private Equity**
+Private equity (PE) involves investments in **privately held companies** rather than publicly traded firms.
+
+- **Venture Capital (VC):** Invests in early-stage startups with high growth potential.
+- **Growth Equity:** Funds mature startups looking to scale.
+- **Leveraged Buyouts (LBOs):** PE firms acquire companies using **debt financing**.
+
+## **II. Funding Stages**
+1️⃣ **Pre-Seed Stage:** Early idea-stage funding from angel investors.
+2️⃣ **Seed Stage:** Initial VC funding (e.g., Y Combinator startups).
+3️⃣ **Series A, B, C:** Scaling rounds for growth.
+4️⃣ **IPO (Initial Public Offering):** Private company goes public.
+
+## **III. Example:**
+- **Kohlberg Kravis Roberts (KKR)** executed an **LBO of RJR Nabisco ($31B in 1989)**, the largest at the time.

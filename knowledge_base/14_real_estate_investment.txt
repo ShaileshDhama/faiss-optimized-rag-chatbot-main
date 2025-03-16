@@ -1,0 +1,20 @@
+# 🏠 REAL ESTATE INVESTMENT
+
+## **I. Introduction to Real Estate Markets**
+Real estate investments generate **cash flow & long-term appreciation.**
+
+- **Residential Properties:** Apartments, rental houses.
+- **Commercial Real Estate (CRE):** Offices, malls, warehouses.
+- **Real Estate Investment Trusts (REITs):** Publicly traded real estate funds.
+
+## **II. Key Real Estate Metrics**
+- **Capitalization Rate (Cap Rate):** Measures return on investment.
+
+\[
+Cap Rate = \frac{Net Operating Income}{Property Value}
+\]
+
+- **Gross Rental Yield:** Rental income vs. property price.
+
+## **III. Example:**
+- **Blackstone REIT** is the **largest real estate fund globally ($280B AUM).**

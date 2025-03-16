@@ -1,0 +1,15 @@
+# 💱 FOREX MARKETS & CURRENCY TRADING
+
+## **I. Understanding Forex (FX) Markets**
+Forex is the **largest financial market** with **$7.5 trillion daily volume**.
+
+- **Major Currency Pairs:** EUR/USD, USD/JPY, GBP/USD.
+- **Commodity Currencies:** AUD/USD, USD/CAD.
+- **Exotic Pairs:** USD/TRY, USD/INR.
+
+## **II. Forex Trading Strategies**
+1️⃣ **Carry Trade:** Borrowing in low-rate currencies (e.g., JPY) to invest in high-rate currencies (e.g., AUD).
+2️⃣ **Scalping:** Making small trades over minutes.
+3️⃣ **Trend Following:** Trading with momentum using **MACD & Moving Averages**.
+
+📉 **Example:** The **Swiss Franc (CHF) shock in 2015** caused major forex losses when the Swiss National Bank (SNB) **removed its currency peg.**

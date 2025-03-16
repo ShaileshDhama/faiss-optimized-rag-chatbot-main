@@ -1,0 +1,28 @@
+# 📊 MARKET ANALYSIS FUNDAMENTALS
+
+## **I. Introduction to Market Analysis**
+Market analysis is the foundation of financial decision-making. Investors use **fundamental** and **technical analysis** to evaluate securities and predict price movements.
+
+## **II. Fundamental Analysis**
+Fundamental analysis assesses a company's **intrinsic value** using financial statements, industry trends, and economic conditions.
+
+- **Financial Metrics**
+  - **Price-to-Earnings (P/E) Ratio**: Measures valuation by comparing stock price to earnings per share (EPS).
+  - **Earnings Per Share (EPS)**: Indicates a company's profitability per share.
+  - **Debt-to-Equity Ratio (D/E)**: Evaluates financial leverage.
+  
+- **Economic Indicators**
+  - **Gross Domestic Product (GDP)**: Measures economic growth.
+  - **Consumer Price Index (CPI)**: Indicates inflation trends.
+  - **Unemployment Rate**: Signals labor market health.
+
+## **III. Technical Analysis**
+Technical analysis uses historical price patterns to forecast movements.
+
+- **Indicators**
+  - **Moving Averages (SMA, EMA)**: Smooths price data.
+  - **Relative Strength Index (RSI)**: Measures overbought (above 70) and oversold (below 30) conditions.
+  - **MACD (Moving Average Convergence Divergence)**: Identifies trend reversals.
+
+## **IV. Real-World Example**
+Example: Apple Inc. (AAPL) has a **P/E ratio of 24**, suggesting fair valuation relative to earnings.

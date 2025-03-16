@@ -1,0 +1,21 @@
+# 🚀 CRYPTOCURRENCY MARKETS & BLOCKCHAIN
+
+## **I. Introduction to Crypto Assets**
+Cryptocurrencies are **decentralized digital assets** powered by **blockchain technology**.
+
+- **Bitcoin (BTC):** First cryptocurrency, store of value.
+- **Ethereum (ETH):** Smart contracts & decentralized apps (dApps).
+- **Stablecoins (USDT, USDC):** Pegged to fiat currencies.
+- **Non-Fungible Tokens (NFTs):** Unique digital ownership assets.
+
+## **II. Crypto Valuation Models**
+- **Stock-to-Flow (S2F):** Predicts BTC price based on scarcity.
+- **Metcalfe’s Law:** Value is proportional to network growth.
+
+## **III. Decentralized Finance (DeFi)**
+DeFi eliminates intermediaries for:
+- **Lending/Borrowing:** Aave, Compound.
+- **Decentralized Exchanges (DEXs):** Uniswap, PancakeSwap.
+- **Yield Farming & Liquidity Pools.**
+
+📉 **Example:** The 2022 crypto crash wiped **$2 trillion** from the market.

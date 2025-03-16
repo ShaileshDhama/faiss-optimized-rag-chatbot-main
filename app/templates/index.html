@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinGenius - Your AI CFO</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+        }
+        .chat-container {
+            height: calc(100vh - 200px);
+        }
+        .message {
+            max-width: 80%;
+            margin: 8px 0;
+            padding: 12px 16px;
+            border-radius: 12px;
+        }
+        .user-message {
+            background-color: #e2e8f0;
+            margin-left: auto;
+        }
+        .bot-message {
+            background-color: #3b82f6;
+            color: white;
+            margin-right: auto;
+        }
+        .typing-indicator {
+            display: inline-block;
+            padding: 12px 16px;
+            background-color: #e2e8f0;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mx-auto px-4 py-8">
+        <!-- Header -->
+        <header class="text-center mb-8">
+            <h1 class="text-4xl font-bold text-blue-600 mb-2">FinGenius</h1>
+            <p class="text-xl text-gray-600">Your AI CFO</p>
+            <p class="text-gray-500 mt-2">Smart Money, Smarter Decisions</p>
+        </header>
+
+        <!-- Main Chat Interface -->
+        <div class="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-6">
+            <!-- Chat Messages -->
+            <div id="chat-messages" class="chat-container overflow-y-auto mb-6">
+                <div class="bot-message message">
+                    Hello! I'm FinGenius, your AI-powered financial assistant. How can I help you today?
+                </div>
+            </div>
+
+            <!-- Input Form -->
+            <form id="chat-form" class="flex gap-4">
+                <input type="text" 
+                       id="user-input" 
+                       class="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                       placeholder="Ask me about market analysis, financial advice, or trading signals..."
+                       required>
+                <button type="submit" 
+                        class="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    Send
+                </button>
+            </form>
+        </div>
+
+        <!-- Features Section -->
+        <div class="max-w-4xl mx-auto mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="p-6 bg-white rounded-lg shadow-md">
+                <h3 class="text-lg font-semibold mb-2">📊 Technical Analysis</h3>
+                <p class="text-gray-600">Real-time market insights using advanced indicators</p>
+            </div>
+            <div class="p-6 bg-white rounded-lg shadow-md">
+                <h3 class="text-lg font-semibold mb-2">🤖 AI-Powered</h3>
+                <p class="text-gray-600">Smart conversations with context-aware responses</p>
+            </div>
+            <div class="p-6 bg-white rounded-lg shadow-md">
+                <h3 class="text-lg font-semibold mb-2">📈 Market Signals</h3>
+                <p class="text-gray-600">Automated trading signals and sentiment analysis</p>
+            </div>
+            <div class="p-6 bg-white rounded-lg shadow-md">
+                <h3 class="text-lg font-semibold mb-2">⚡ High Performance</h3>
+                <p class="text-gray-600">Lightning-fast responses with advanced caching</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const chatMessages = document.getElementById('chat-messages');
+        const chatForm = document.getElementById('chat-form');
+        const userInput = document.getElementById('user-input');
+        let ws;
+
+        function connectWebSocket() {
+            ws = new WebSocket(`ws://${window.location.host}/api/v1/chat/ws`);
+            
+            ws.onmessage = function(event) {
+                const response = JSON.parse(event.data);
+                appendMessage('bot', response.content);
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            };
+
+            ws.onclose = function() {
+                setTimeout(connectWebSocket, 1000);
+            };
+        }
+
+        function appendMessage(sender, content) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${sender}-message`;
+            messageDiv.textContent = content;
+            chatMessages.appendChild(messageDiv);
+        }
+
+        chatForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const message = userInput.value.trim();
+            if (message) {
+                appendMessage('user', message);
+                ws.send(JSON.stringify({ content: message }));
+                userInput.value = '';
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            }
+        });
+
+        connectWebSocket();
+    </script>
+</body>
+</html>

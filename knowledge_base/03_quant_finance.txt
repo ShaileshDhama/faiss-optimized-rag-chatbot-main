@@ -1,0 +1,23 @@
+# 📈 QUANTITATIVE FINANCE MODELS
+
+## **I. Black-Scholes Model**
+Used for **option pricing**:
+
+\[
+C = S_0 N(d_1) - Xe^{-rt} N(d_2)
+\]
+
+where:
+- **C** = Call Option Price
+- **S_0** = Current Stock Price
+- **X** = Strike Price
+- **r** = Risk-Free Rate
+- **N(d1), N(d2)** = Cumulative Distribution Functions.
+
+## **II. Monte Carlo Simulation**
+- Used for **derivative pricing and VaR (Value at Risk).**
+- Simulates thousands of random stock price movements.
+
+## **III. Risk Metrics**
+- **Sharpe Ratio** = Measures **risk-adjusted return**.
+- **Beta** = Measures **systematic risk**.

@@ -1,0 +1,22 @@
+# 🤖 ALGORITHMIC TRADING STRATEGIES
+
+## **I. Introduction**
+Algorithmic trading uses automated systems to execute trades based on mathematical models.
+
+## **II. Trading Strategies**
+1️⃣ **Market Making Strategy**
+   - Places **simultaneous buy/sell orders** to profit from bid-ask spreads.
+   - Used by **high-frequency trading (HFT) firms**.
+
+2️⃣ **Momentum Trading**
+   - Buys assets showing **strong upward momentum**.
+   - Uses **Relative Strength Index (RSI)** as a key indicator.
+
+3️⃣ **Mean Reversion**
+   - Assumes price will revert to historical mean.
+   - Uses **Bollinger Bands** to detect overbought/oversold levels.
+
+## **III. Execution Risks**
+- **Slippage:** Execution price deviates from expected.
+- **Latency Issues:** Millisecond delays impact profitability.
+- **Flash Crashes:** Rapid price drops due to algo malfunctions.

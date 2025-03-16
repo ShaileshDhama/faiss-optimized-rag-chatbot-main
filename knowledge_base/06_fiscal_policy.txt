@@ -1,0 +1,20 @@
+# 📊 FISCAL POLICY & TAXATION
+
+## **I. Understanding Fiscal Policy**
+Fiscal policy is how governments **spend and collect revenue** to influence the economy.
+
+- **Expansionary Fiscal Policy**: Increases spending or cuts taxes to boost growth.
+- **Contractionary Fiscal Policy**: Reduces spending or raises taxes to control inflation.
+
+## **II. Taxation & Revenue**
+Governments collect revenue via:
+- **Income Tax:** Levied on personal earnings.
+- **Corporate Tax:** Charged on business profits.
+- **Sales Tax (VAT):** Indirect consumption tax.
+- **Capital Gains Tax:** Applied to asset sales.
+
+## **III. Budget Deficit & Surplus**
+- **Budget Deficit:** When spending > revenue (common in recession).
+- **Budget Surplus:** When revenue > spending.
+
+📉 **Example:** The U.S. had a **$2.8 trillion fiscal deficit in 2021**, leading to increased borrowing.

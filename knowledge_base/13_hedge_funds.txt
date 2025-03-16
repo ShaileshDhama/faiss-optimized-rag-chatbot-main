@@ -1,0 +1,16 @@
+# 📊 HEDGE FUNDS & ALTERNATIVE INVESTMENTS
+
+## **I. What Are Hedge Funds?**
+Hedge funds use **aggressive investment strategies** to maximize returns.
+
+- **Market-Neutral:** Balances long & short positions.
+- **Global Macro:** Bets on large economic shifts (e.g., inflation trends).
+- **Event-Driven:** Arbitrages corporate events (e.g., M&A deals).
+
+## **II. Top Hedge Fund Strategies**
+1️⃣ **Long/Short Equity:** Buying undervalued stocks, shorting overvalued ones.
+2️⃣ **Statistical Arbitrage:** Uses AI & machine learning for price inefficiencies.
+3️⃣ **Merger Arbitrage:** Profits from stock price gaps during acquisitions.
+
+## **III. Example:**
+- **Bridgewater Associates (Ray Dalio)** uses **All-Weather Portfolio** to hedge against economic downturns.

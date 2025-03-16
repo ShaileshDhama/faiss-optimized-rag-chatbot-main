@@ -1,0 +1,64 @@
+2025-03-03 01:42:36,727 - INFO - Loaded 95 text chunks from knowledge base
+2025-03-03 01:42:36,727 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-03 01:42:54,292 - INFO - Use pytorch device: cpu
+2025-03-03 01:42:56,959 - INFO - New embeddings added to FAISS index.
+2025-03-03 01:42:56,959 - INFO - Knowledge base initialization complete
+2025-03-03 01:43:33,828 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-03 01:43:34,366 - INFO - Use pytorch device: cpu
+2025-03-03 01:43:34,366 - INFO - FAISS index loaded successfully.
+2025-03-03 01:43:34,367 - INFO - Retriever initialized successfully
+2025-03-03 01:43:34,774 - INFO - Retrieved 3 chunks for query
+2025-03-03 02:03:34,529 - INFO - Chatbot started.
+2025-03-03 02:03:34,533 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-03 02:03:37,179 - INFO - Use pytorch device: cpu
+2025-03-03 02:03:37,289 - INFO - FAISS index loaded successfully.
+2025-03-03 02:03:37,289 - INFO - Retriever initialized successfully
+2025-03-03 02:03:37,306 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-03-03 02:03:37,306 - INFO - Ollama is available and working
+2025-03-03 02:03:37,306 - INFO - Model llama2 not found, attempting to pull it...
+2025-03-03 02:03:37,459 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-03 02:03:37,998 - INFO - Use pytorch device: cpu
+2025-03-03 02:03:37,998 - INFO - FAISS index loaded successfully.
+2025-03-03 02:03:37,998 - INFO - Retriever initialized successfully
+2025-03-03 02:03:38,003 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-03-03 02:03:38,003 - INFO - Ollama is available and working
+2025-03-03 02:03:38,003 - INFO - Model llama2 not found, attempting to pull it...
+2025-03-03 02:06:00,740 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-03 02:06:01,306 - INFO - Use pytorch device: cpu
+2025-03-03 02:06:01,306 - INFO - FAISS index loaded successfully.
+2025-03-03 02:06:01,306 - INFO - Retriever initialized successfully
+2025-03-03 02:06:04,909 - INFO - Retrieved 2 chunks for query
+2025-03-03 02:06:29,544 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-03 02:06:30,075 - INFO - Use pytorch device: cpu
+2025-03-03 02:06:30,075 - INFO - FAISS index loaded successfully.
+2025-03-03 02:06:30,075 - INFO - Retriever initialized successfully
+2025-03-03 02:06:30,081 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-03-03 02:06:30,081 - INFO - Ollama is available and working
+2025-03-03 02:06:30,081 - INFO - Model llama2 not found, attempting to pull it...
+2025-03-03 02:06:30,536 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/pull "HTTP/1.1 200 OK"
+2025-03-03 02:06:30,536 - INFO - Successfully pulled model llama2
+2025-03-03 02:06:30,977 - INFO - Retrieved 3 chunks for query
+2025-03-03 02:06:30,977 - INFO - Retrieved 3 chunks for query: How do interest rates affect stock markets?
+2025-03-03 02:06:30,977 - INFO - Chunk 1: ## **III. Interest Rate Mechanism**
+- **Hiking Rates:** Slows inflation, strengthens currency.
+- **C... (score: 0.9342)
+2025-03-03 02:06:30,977 - INFO - Chunk 2: # \U0001f4b0 CENTRAL BANK POLICIES & INTEREST RATES... (score: 1.0297)
+2025-03-03 02:06:30,988 - INFO - Chunk 3: - **Market-Neutral:** Balances long & short positions.
+- **Global Macro:** Bets on large economic sh... (score: 1.1952)
+2025-03-03 02:07:16,657 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-03 02:07:16,680 - INFO - Retrieved 3 chunks for query
+2025-03-03 02:07:16,680 - INFO - Retrieved 3 chunks for query: What are the principles of algorithmic trading?
+2025-03-03 02:07:16,680 - INFO - Chunk 1: ## **I. Introduction**
+Algorithmic trading uses automated systems to execute trades based on mathema... (score: 0.5043)
+2025-03-03 02:07:16,680 - INFO - Chunk 2: # \U0001f916 ALGORITHMIC TRADING STRATEGIES... (score: 0.5893)
+2025-03-03 02:07:16,680 - INFO - Chunk 3: ## **II. AI in Finance**
+- **Algorithmic Trading:** AI executes **high-frequency trades**.
+- **Fraud... (score: 0.7741)
+2025-03-03 02:07:44,036 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-03 02:07:44,053 - INFO - Retrieved 3 chunks for query
+2025-03-03 02:07:44,053 - INFO - Retrieved 3 chunks for query: Explain the concepts of risk management in finance
+2025-03-03 02:07:44,053 - INFO - Chunk 1: # \U0001f4ca RISK MANAGEMENT IN FINANCE... (score: 0.5499)
+2025-03-03 02:07:44,053 - INFO - Chunk 2: # \U0001f3e5 INSURANCE MARKETS & RISK MANAGEMENT... (score: 0.8556)
+2025-03-03 02:07:44,053 - INFO - Chunk 3: ## **I. Introduction to Insurance Markets**
+Insurance manages **risk through pooled contributions**.... (score: 0.9615)
+2025-03-03 02:08:10,441 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"

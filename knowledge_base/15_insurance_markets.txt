@@ -1,0 +1,20 @@
+# 🏥 INSURANCE MARKETS & RISK MANAGEMENT
+
+## **I. Introduction to Insurance Markets**
+Insurance manages **risk through pooled contributions**.
+
+- **Life Insurance:** Term, Whole Life, Universal Life.
+- **Health Insurance:** HMO, PPO, Medicaid, Medicare.
+- **Property & Casualty (P&C):** Homeowners, Auto, Commercial.
+
+## **II. Actuarial Science in Insurance**
+Actuaries use **probability models & risk assessments**:
+
+\[
+Premium = Risk Factor \times Expected Loss + Loading
+\]
+
+- **Reinsurance:** Insurers transfer part of the risk to other insurers.
+
+## **III. Example:**
+- **AIG (American International Group)** nearly collapsed in **2008 due to excessive exposure to Credit Default Swaps (CDS).**

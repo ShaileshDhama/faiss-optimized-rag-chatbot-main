@@ -1,0 +1,99 @@
+/* FinGenius Brand Colors */
+:root {
+    --primary-blue: #3b82f6;
+    --primary-dark: #1e40af;
+    --primary-light: #60a5fa;
+    --accent-green: #10b981;
+    --accent-red: #ef4444;
+    --neutral-dark: #1f2937;
+    --neutral-light: #f3f4f6;
+}
+
+/* Brand Typography */
+.brand-heading {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--primary-blue), var(--primary-dark));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Logo Animation */
+.logo-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.9;
+        transform: scale(1.05);
+    }
+}
+
+/* Custom Components */
+.fin-card {
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s ease-in-out;
+}
+
+.fin-card:hover {
+    transform: translateY(-2px);
+}
+
+.fin-button {
+    background: var(--primary-blue);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+
+.fin-button:hover {
+    background: var(--primary-dark);
+    transform: translateY(-1px);
+}
+
+/* Market Data Visualization */
+.market-chart {
+    background: var(--neutral-light);
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+.market-up {
+    color: var(--accent-green);
+}
+
+.market-down {
+    color: var(--accent-red);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .fin-card {
+        margin: 0.5rem 0;
+    }
+}
+
+/* Loading States */
+.loading-skeleton {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}

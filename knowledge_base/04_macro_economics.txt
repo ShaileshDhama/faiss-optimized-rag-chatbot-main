@@ -1,0 +1,23 @@
+# 📊 MACROECONOMIC INDICATORS
+
+## **I. Gross Domestic Product (GDP)**
+Measures a country’s economic output.
+
+\[
+GDP = C + I + G + (X - M)
+\]
+
+where:
+- **C** = Consumer Spending
+- **I** = Investment
+- **G** = Government Spending
+- **X - M** = Exports - Imports.
+
+## **II. Inflation**
+Measured using **Consumer Price Index (CPI)**.
+- Central banks target **2% inflation** for stability.
+
+## **III. Business Cycles**
+- **Expansion:** GDP grows, low unemployment.
+- **Recession:** GDP shrinks, high unemployment.
+- **Recovery:** Economy rebounds.

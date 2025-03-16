@@ -1,0 +1,14 @@
+# 📊 RISK MANAGEMENT IN FINANCE
+
+## **I. Value at Risk (VaR)**
+Estimates maximum portfolio loss at a given confidence level.
+
+\[
+VaR = (Mean Return - Z \times Standard Deviation) \times Portfolio Value
+\]
+
+## **II. Portfolio Diversification**
+- Combines **stocks, bonds, real estate, commodities** to reduce risk.
+
+## **III. Stress Testing**
+- Simulates **financial crises, interest rate shocks, or market crashes** to evaluate portfolio risk.

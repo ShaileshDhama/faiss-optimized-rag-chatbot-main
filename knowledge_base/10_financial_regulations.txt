@@ -1,0 +1,15 @@
+# 🏛 FINANCIAL REGULATIONS & COMPLIANCE
+
+## **I. Basel III Framework**
+- **Capital Requirements:** Banks must hold **Tier 1 capital ≥ 6%**.
+- **Liquidity Coverage Ratio (LCR):** Banks need **enough cash for 30 days**.
+
+## **II. U.S. SEC Regulations**
+- **Securities Act (1933):** Requires company financial disclosures.
+- **Dodd-Frank Act (2010):** Prevents banking collapse.
+
+## **III. Risk Management in Finance**
+- **AML (Anti-Money Laundering):** Prevents illicit transactions.
+- **KYC (Know Your Customer):** Verifies client identity.
+
+📉 **Example:** In 2023, the SEC fined **Goldman Sachs $3B** for compliance failures.
