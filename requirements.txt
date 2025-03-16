@@ -1,6 +1,6 @@
 faiss-cpu==1.7.2
 torch>=1.7.0
-torchvision==0.15
+torchvision==0.15.2
 sentence-transformers==2.2.2
 transformers>=4.11.3
 numpy>=1.19.5
