@@ -26,7 +26,7 @@ loguru==0.7.2
 scikit-learn>=0.24.1
 pandas>=2.2.0
 pandas-ta>=0.3.14b0
-ydata-profiling==4.14.0
+ydata-profiling>=4.10.0
 tiktoken>=0.5.2
 opentelemetry-api>=1.22.0
 opentelemetry-sdk>=1.22.0
